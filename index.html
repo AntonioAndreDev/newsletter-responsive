@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@11.0.19/dist/sweetalert2.min.css" />
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.0.19/dist/sweetalert2.min.js"></script>
+    <script src="./script/index.js" defer></script>
+    <link rel="stylesheet" href="./style/style.css" />
+    <title>Newsletter</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="mobile-image-container">
+        <img class="mobile-image mb-2" src="./images/illustration-sign-up-mobile.svg" alt="" />
+      </div>
+      <div class="newsletter-section">
+        <h1 class="mb-1">Stay updated!</h1>
+        <p class="mb-1">Join 60,0000+ product managers receiving monthly updated on:</p>
+        <ul class="list mb-2">
+          <li><img class="icon-list" src="./images/icon-list.svg" alt="" /> Product discovery and building what matters</li>
+          <li><img class="icon-list" src="./images/icon-list.svg" alt="" /> Measuring to ensure updates are a success</li>
+          <li><img class="icon-list" src="./images/icon-list.svg" alt="" /> And much more!</li>
+        </ul>
+
+        <form action="" class="form">
+          <div class="email-check">
+            <h6>Email address</h6>
+            <h6 id="emailRequired"></h6>
+          </div>
+          <input id="emailInput" type="email" name="" id="" placeholder="email@company.com" class="mb-2" />
+        </form>
+
+        <button id="subscribeBtn" class="btn-subscribe" type="submit">Subscribe to monthly newsletter</button>
+      </div>
+      <span>
+        <img class="desktop-image" src="./images/illustration-sign-up-desktop.svg" alt="" />
+      </span>
+    </div>
+  </body>
+</html>
